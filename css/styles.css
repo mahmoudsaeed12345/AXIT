@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.container{
+    width: 90%;
+    padding: 1%;
+}
+.logo{
+    font-size: 39px;
+    float: left;
+    color: white;
+    padding-left: 18%;
+    margin-bottom: 14px;
+}
+ul{
+    width: 94%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.first-section{
+    background-image: url(../img/1.jpg);
+    height: 600px;
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    color: white;
+}
+.container-overlay{
+    background-color: rgb(0 0 0 / 51%);
+    height: 100%;
+}
+.text{
+    float: left;
+    width: 21%;
+    margin: 6%;
+    margin-left: 17%;
+    font-size: 21px;
+}
+.text h2 ,.text h3 ,.text p ,.text button{
+    padding: 2%;
+    margin: 1%;
+}
+.text p{
+    font-size: 17px;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+.text hr{
+    width: 60px;
+    margin: 2%;
+    border: 2px solid;
+}
+.text button {
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    padding: 3%;
+    border: 2px solid white;
+    width: 46%;
+    margin: 2%;
+}
+ .card-right{
+    float: right;
+    width: 30%;
+    background-color: white;
+    margin: 7%;
+    text-align: center;
+    
+ }
+ .card-right h3{
+     color: black;
+     background-color: #eaeaea;
+     text-align: center;
+     font-size: 30px;
+ }
+ .card-right input{
+    display: block;
+    width: 85%;
+    margin: 4%;
+    padding: 2%;
+    padding-bottom: 6%;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 1px solid;
+ }
+ .card-right button{
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    padding: 3%;
+    border: 0px solid white;
+    width: 100%;
+    margin: 0;
+ }
+.second-section{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 2px solid #c3c1c1;
+}
+.social {
+    float: left;
+    width: 28%;
+    margin-left: 11%;
+    font-size: 18px;
+}
+.social h3{
+    padding: 1%;
+}
+.social p{
+    padding: 1%;
+    padding-top: 0px;
+    color: gray;
+}
+.icons{
+    float: right;
+    width: 35%;
+    color: gray;
+    margin-top: -5%;
+    margin-right: 9%;
+    font-size: 78px;
+}
+.icons i {
+    padding: 5% 2%;
+}
+
+.third-section{
+    width: 100%;
+    height: 644px;
+    background-color: rgb(227 228 228 / 61%);
+    margin: 0%;
+    padding: 0%;
+}
+.tabs{
+    width: 13%;
+    float: left;
+    padding: 146px;
+    padding-top: 3%;
+    padding-left: 11%;
+    
+}
+.tabs button{
+    margin: 0px;
+    padding: 23px;
+    height: 186px;
+    font-size: 62px;
+    color: white;
+    background-color: black;
+    border: 0px;
+
+}
+.btn-hover:hover{
+    background-color: orange;
+}
+
+.tabs-text{
+    width: 29%;
+    float: left;
+    margin: 6%;
+    margin-left: 0%;
+    
+}
+.tabs-text h3 , .tabs-text p , .tabs-text button{
+    padding: 4%;
+}
+.tabs-text button{
+    background-color: orange;
+    padding: 3%;
+    color: white;
+    font-size: 19px;
+    margin-left: 3%;
+    border: 0px;
+
+}
+.tabs-image { 
+    float: right;
+    margin: 6%;
+    
+}
+.tabs-image1 img{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.tabs-image2 img {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: -5%;
+    bottom: -210px;
+    transform: rotate(180deg);
+    opacity: 0.32;
+}
+/* forthth-section */
+.forth-section{
+    width: 100%;
+    height: 603px;
+    background-color: white;
+    margin: 2%;
+    margin-top: 2%;
+}
+.container-img{
+    float: left;
+    width: 34%;
+    margin-left: -19%;
+    margin-top: 8%;
+}
+.container-img img{
+    width: 494px;
+    height: 342px;
+}
+.sub-list{
+    float: right;
+    width: 34%;
+    margin-top: 3%;
+    margin-right: 16%;
+}
+.sub-list h2 .sub-list p {
+    padding: 2%;
+    margin: 1%;
+}
+.sub-list hr{
+    width: 58px;
+    margin: 4%;
+    margin-left: 0%;
+    color: orange;
+    border: 2px solid;
+
+}
+.sub-list p{
+    font-size: 21px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    padding-bottom: 6%;
+
+}
+
+.img-upload{
+    width: 0%;
+    margin-left: -1%;
+}
+.sub-list .img-upload img {
+    width: 46px;
+}
+.title {
+    margin: 1%;
+    margin-top: -6%;
+    margin-left: 9%;
+}
+.sub-list .title p{
+    font-size: 16px;
+    margin-top: 3%;
+}
+.img-download{
+    width: 0%;
+    margin-left: -1%;
+}
+.sub-list .img-download img {
+    width: 46px;
+}
+.title2 {
+    margin: 1%;
+    margin-top: -6%;
+    margin-left: 9%;
+}
+.sub-list .title2 p{
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+/* fifth-section */
+.fifth-section{
+    width: 100%;
+    height: 568px;
+    background-color: rgb(227 228 228 / 61%);
+    margin: 0;
+    margin-top: 0;
+}
+.container-img2{
+    float: right;
+    width: 34%;
+    margin-top: 5%;
+    margin-right: 11%;  
+}
+.container-img2 img{
+    width: 494px;
+    height: 342px;
+}
+.sub-list2{
+    float: left;
+    width: 34%;
+    margin-left: 14%;
+    margin-top: 9%;
+}
+.sub-list2 h2 .sub-list2 p {
+    padding: 2%;
+    margin: 1%;
+}
+.sub-list2 hr{
+    width: 58px;
+    margin: 4%;
+    margin-left: 0%;
+    color: orange;
+    border: 2px solid;
+
+}
+.sub-list2 p{
+    font-size: 21px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    padding-bottom: 6%;
+
+}
+
+/* sixth-section */
+.sixth-section{
+    width: 100%;
+    height: 603px;
+    background-color: white;
+    margin: 2%;
+    margin-top: 2%;
+}
+
+.awesome{
+    display: block;
+    width: 42%;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 26%;
+}
+.awesome h2 , .awesome p {
+    padding: 2%;
+    margin: 1%;
+}
+.awesome hr{
+    width: 58px;
+    margin: 2%;
+    margin-left: 45%;
+    color: orange;
+    border: 2px solid;
+
+}
+.awesome p{
+    font-size: 21px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-bottom: 6%;
+    color: gray;
+
+}
+
+.card-icon{
+    width: 30%;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 3%;
+    text-align: center;
+}
+.card-icon p{
+    padding: 3%;
+    font-size: 18px;
+    color: gray;
+}
+.card-icon img{
+    width: 20%;
+}
+
+/* seventh-section */
+.seventh-section{
+    width: 100%;
+    height: 841px;
+    background-color: rgb(227 228 228 / 61%);
+}
+
+.pricing{
+    display: block;
+    width: 42%;
+    text-align: center;
+    margin-top: 2%;
+    padding: 1%;
+    padding-top: 2%;
+    margin-left: 26%;
+}
+.pricing h2 , .pricing p {
+    padding: 2%;
+    margin: 1%;
+}
+.pricing hr{
+    width: 58px;
+    margin: 2%;
+    margin-left: 45%;
+    color: orange;
+    border: 2px solid;
+
+}
+.pricing p{
+    font-size: 21px;
+    margin-bottom: 3%;
+    margin-top: -2%;
+    padding-bottom: 2%;
+    color: gray;
+
+}
+
+.head-price{
+    background-color: #35312f;
+    color: white;
+    padding: 5%;
+}
+.white{
+    border: 1px solid white;
+}
+
+.card-price{
+    width: 23%;
+    display: inline-block;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.card-price .det{
+    padding: 3%;
+    font-size: 18px;
+    color: gray;
+}
+.body-price{
+    background-color: #35312f;
+    color: white;
+}
+.card-price h2{
+    color: white;
+    font-size: 91px;
+}
+.orange-small{
+    border: 1px solid orange;
+
+}
+.card-price .details{
+    padding: 3%;
+    font-size: 18px;
+    color: gray;
+    background-color: white;
+}
+.thin-hr{
+    border: 1px solid #e4dbdb;
+}
+
+.orange-large{
+    background-color: orange;
+    color: white;
+    font-size: 22px;
+    padding: 4%;
+}
+
+/* eight-section */
+.eight-section{
+    width: 100%;
+    height: 603px;
+    background-color: white;
+    margin: 2%;
+    margin-top: 2%;
+}
+.eight-section .card-icon p{
+    background-color: #f3f3f3;
+    width: 56%;
+    margin-left: 19%;
+    font-size: 17px;
+    padding: 3%;
+}
+.arrow{
+    width: 0;
+    margin-left: 24%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid #f3f3f3;
+  }
+.customers{
+    display: initial;
+}
+.eight-section .card-icon .customers img{
+    width: 11%;
+    float: left;
+    margin-left: 19%;
+    padding: 1%;
+}
+.eight-section .card-icon .customers h2 , .eight-section .card-icon .customers p{
+    width: 29%;
+    margin-left: 31%;
+    margin-top: 0%;
+    font-size: 17px;
+    padding: 1%;
+}
+.eight-section .card-icon .customers p{
+    background-color: white;
+}
+ /* nine-section */
+ .nine-section{
+    background-image: url(../img/1.jpg);
+    height: 443px;
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    color: white;
+}
+.nine-section .awesome{
+    padding-top: 3%;
+}
+.nine-section .awesome button {
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    padding: 3%;
+    border: 2px solid white;
+    width: 46%;
+    margin: -2%;
+}
+
+/* ten-section */
+
+.ten-section{
+    width: 100%;
+    height: 603px;
+    background-color: white;
+    margin: 2%;
+    margin-top: 2%;
+}
+.ten-section .contact-us input{
+    
+    width: 37%;
+    float: left;
+    margin-left: 12%;
+    padding: 1%;
+    border: 0px;
+    border-bottom: 1px solid;
+    font-size: 18px;
+}
+.ten-section .contact-us textarea{
+      
+    width: 37%;
+    margin: 0%;
+    margin-left: 5%;
+    padding: 1%;
+    padding-bottom: 6%;
+    font-size: 18px;
+    border: 0px;
+    border-bottom: 1px solid;
+
+}
+
+.ten-section .contact-us button{
+    background-color: #ef9e0b;
+    padding: 1%;
+    color: white;
+    font-size: 20px;
+    margin: 2%;
+    margin-left: 49%;
+    border: 0px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.icons-footer{
+    display: block;
+    width: 43%;
+    text-align: center;
+    margin-left: 26%;
+    color: gray;
+    margin-top: -5%;
+    margin-right: 9%;
+   
+    font-size: 78px;
+}
+.icons-footer i {
+    padding: 3% 1%;
+}
+.footer-p{
+    color: gray;
+    width: 95%;
+    text-align: center;
+    font-size: 27px;
+    margin: -1%;
+    padding: 0%;
+    
+}
